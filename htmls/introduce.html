@@ -1,9 +1,12 @@
 <!DOCTYPE <!DOCTYPE html>
-<html>
+<html lang="zh">
 <head>
     <title>介绍</title>
+    <meta charset="utf-8">
+    <script src="../src/dep/angular/1.4.6/angular.js"></script>
 </head>
-<body>
-    <h1>我的个人介绍</h1>
+<body ng-app="" ng-init="firstName='王杰'">
+    <h1>我的个人介绍{{firstName}}</h1>
+    <input type="text" name="" ng-model="firstName" placeholder="输入名称">
 </body>
 </html>
