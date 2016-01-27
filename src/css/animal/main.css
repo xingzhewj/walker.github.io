@@ -1,0 +1,18 @@
+.animal-ele {
+    height: 200px;
+    width: 300px;
+    background: #f00 url(./img/face.png) no-repeat center;
+    background-size: 200px;
+    position: relative;
+    animation: mymove 10s ease 1s infinite alternate;
+}
+
+@keyframes mymove {
+    from {left: 0;}
+    to {left: 500px;}
+}
+
+@-webkit-keyframes mymove {
+    from {left: 0;}
+    to {left: 500px;}
+}
